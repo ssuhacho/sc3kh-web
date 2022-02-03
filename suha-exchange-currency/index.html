@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="exchange-box">
+      <div class="dropdown">
+        <button class="dropbtn" id="from-button">
+          <img
+            class="flag-img"
+            src="https://www.countryflags.com/wp-content/uploads/united-states-of-america-flag-png-large.png"
+          />USD
+        </button>
+        <div class="dropdown-content" id="from-currency-list">
+          <a href="#"
+            ><img
+              class="flag-img"
+              src="https://www.countryflags.com/wp-content/uploads/united-states-of-america-flag-png-large.png"
+            />USD</a
+          >
+          <a href="#"
+            ><img
+              class="flag-img"
+              src="https://www.countryflags.com/wp-content/uploads/south-korea-flag-png-large.png"
+            />KRW</a
+          >
+          <a href="#"
+            ><img
+              class="flag-img"
+              src="https://www.countryflags.com/wp-content/uploads/china-flag-png-large.png"
+            />CNY</a
+          >
+        </div>
+      </div>
+
+      <div class="input-area">
+        <input
+          type="text"
+          class="amount-box"
+          id="from-input"
+          onkeyup="convert()"
+          placeholder="Your Amount"
+        />
+        <div id="fromNumToEng" class="english-num">Dollar</div>
+      </div>
+    </div>
+
+    <div class="same-icon">=</div>
+
+    <div class="exchange-box">
+      <div class="dropdown">
+        <button class="dropbtn" id="to-button">
+          <img
+            class="flag-img"
+            src="https://www.countryflags.com/wp-content/uploads/united-states-of-america-flag-png-large.png"
+          />USD
+        </button>
+        <div class="dropdown-content" id="to-currency-list">
+          <a href="#"
+            ><img
+              class="flag-img"
+              src="https://www.countryflags.com/wp-content/uploads/united-states-of-america-flag-png-large.png"
+            />USD</a
+          >
+          <a href="#"
+            ><img
+              class="flag-img"
+              src="https://www.countryflags.com/wp-content/uploads/south-korea-flag-png-large.png"
+            />KRW</a
+          >
+          <a href="#"
+            ><img
+              class="flag-img"
+              src="https://www.countryflags.com/wp-content/uploads/china-flag-png-large.png"
+            />CNY</a
+          >
+        </div>
+      </div>
+
+      <div class="input-area">
+        <input
+          type="text"
+          class="amount-box"
+          id="to-input"
+          onkeyup="convert()"
+        />
+        <div id="toNumToEng" class="english-num">Dollar</div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
