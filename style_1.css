@@ -175,9 +175,9 @@ nav .items .item:hover{
         max-width: 600px;
     }
     nav .items .item{
-        padding: 7px 15px;
+        padding: 7px 9px;
         margin: 1px;
-        font-size: 14px;
+        font-size: 11.5px;
     }
 
 }
@@ -188,5 +188,10 @@ nav .items .item:hover{
     }
     .gallery .image{
         width: 100%;
+    }
+    nav .items .item{
+        padding: 7px 8px;
+        margin: 1px;
+        font-size: 11px;
     }
 }
